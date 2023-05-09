@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Memory Game</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<!-- ------------ google fonts Ubuntu ------------------- -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- ----------- the css file --------------------------  -->
+		<link rel="stylesheet" href="CSS/main.css" />
+		<!-- ----------- the javascript file -------------------- -->
+		<script src="JS/main.js" defer></script>
+		<!-- ----------- font awesome --------------------------- -->
+		<link rel="stylesheet" href="Font_Awesome/css/all.css" />
+	</head>
+	<body>
+    <div class="container">
+      <div class="start-menu">
+        <span>start</span>
+      </div>
+      <div class="info-container">
+        <div class="name">
+          Hello : <span></span>
+        </div>
+        <div class="tries">
+          wrong tries : <span>0</span>
+        </div>
+      </div>
+
+      <div class="memory-game-container">
+        <div class="game-block" data-technology="chrome">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/chrome.png" alt="photo google chrome">
+          </div>
+        </div>
+        <div class="game-block" data-technology="chrome">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/chrome.png" alt="photo google chrome">
+          </div>
+        </div>
+        <div class="game-block" data-technology="css">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/css-3.png" alt="photo css">
+          </div>
+        </div>
+        <div class="game-block" data-technology="css">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/css-3.png" alt="photo css">
+          </div>
+        </div>
+        <div class="game-block" data-technology="facebook">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/facebook.png" alt="photo facebook">
+          </div>
+        </div>
+        <div class="game-block" data-technology="facebook">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/facebook.png" alt="photo facebook">
+          </div>
+        </div>
+        <div class="game-block" data-technology="github">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo//github-sign.png" alt="photo github">
+          </div>
+        </div>
+        <div class="game-block" data-technology="github">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo//github-sign.png" alt="photo github">
+          </div>
+        </div>
+        <div class="game-block" data-technology="html">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/html-5.png" alt="photo html">
+          </div>
+        </div>
+        <div class="game-block" data-technology="html">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/html-5.png" alt="photo html">
+          </div>
+        </div>
+        <div class="game-block" data-technology="instagram">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/instagram.png" alt="photo instagram">
+          </div>
+        </div>
+        <div class="game-block" data-technology="instagram">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/instagram.png" alt="photo instagram">
+          </div>
+        </div>
+        <div class="game-block" data-technology="javascript">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/js.png" alt="photo javascript">
+          </div>
+        </div>
+        <div class="game-block" data-technology="javascript">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/js.png" alt="photo javascript">
+          </div>
+        </div>
+        <div class="game-block" data-technology="python">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo//python.png" alt="photo python">
+          </div>
+        </div>
+        <div class="game-block" data-technology="python">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo//python.png" alt="photo python">
+          </div>
+        </div>
+        <div class="game-block" data-technology="react">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/react.png" alt="photo react">
+          </div>
+        </div>
+        <div class="game-block" data-technology="react">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/react.png" alt="photo react">
+          </div>
+        </div>
+        <div class="game-block" data-technology="VueJs">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/VueJs.png" alt="photo VueJs">
+          </div>
+        </div>
+        <div class="game-block" data-technology="VueJs">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="Photo/VueJs.png" alt="photo VueJs">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <audio id="success" src="Sounds/success.mp3" ></audio>
+    <audio id="endSuccess" src="Sounds/End_Success.mp3" preload="auto"></audio>
+    <audio id="fail" src="Sounds/Fail.mp3" preload="auto"></audio>
+    <audio id="endFail" src="Sounds/End_Fail.mp3" preload="auto"></audio>
+	</body>
+</html>
